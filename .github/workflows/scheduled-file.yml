@@ -2,7 +2,7 @@ name: "Scheduled Action"
 
 on:
   schedule:
-    - cron: '* /5 * * * *'
+    - cron: '* /2 * * * *'
 
 jobs:
   test_schedule:
